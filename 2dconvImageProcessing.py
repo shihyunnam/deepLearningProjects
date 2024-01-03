@@ -68,7 +68,7 @@ img_display = np.copy(img_data)
 # print(img_data[0])
 # print(img_filtered[0])
 fig, (axL,axR) = plt.subplots(ncols=2, tight_layout=True)
-fig.suptitle(kernel)
+# fig.suptitle(kernel)
 imL = axL.imshow(img_data)
 imR = axR.imshow(img_display)
 
